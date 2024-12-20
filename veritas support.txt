@@ -1,0 +1,128 @@
+Jun 20, 2024 5:32:55 AM - Info nbjm (pid=29649) starting backup job (jobid=603055) for client pendb.cicdom.local, policy MSSQL_DB, schedule MSSQL_DB_YEARLY
+Jun 20, 2024 5:32:56 AM - Info nbjm (pid=29649) requesting STANDARD_RESOURCE resources from RB for backup job (jobid=603055, request id:{670B0048-2EAD-11EF-8F9B-46D274639176})
+Jun 20, 2024 5:32:56 AM - requesting resource  stu_disk_drp-app-hq
+Jun 20, 2024 5:32:56 AM - requesting resource  drp-app-hq.NBU_CLIENT.MAXJOBS.pendb.cicdom.local
+Jun 20, 2024 5:33:02 AM - Error nbjm (pid=29649) NetBackup status: 2106, EMM status: Storage Server is down or unavailable 
+Disk storage server is down  (2106)
+
+
+Jun 20, 2024 12:43:16 AM - Info nbdelete (pid=10066) deleting expired images. Media Server: drp-app-hq Media: @aaaab
+Jun 20, 2024 12:43:23 AM - requesting resource  @aaaab
+Jun 20, 2024 12:43:35 AM - Error nbjm (pid=29649) NetBackup status: 2074, EMM status: Disk volume is down
+Jun 20, 2024 12:43:35 AM - Error nbjm (pid=29649) NetBackup status: 2074, EMM status: Disk volume is down
+Jun 20, 2024 12:43:38 AM - Error nbdelete (pid=10066) Cannot obtain resources for this job : error [2074]
+Disk volume is down  (2074)
+
+Jun 20, 2024 12:22:29 AM - Info nbjm (pid=29649) starting backup job (jobid=603034) for client macfeeapp.cicdom.local, policy MSSQL_DB, schedule MSSQL_DB_YEARLY
+Jun 20, 2024 12:22:29 AM - Info nbjm (pid=29649) requesting STANDARD_RESOURCE resources from RB for backup job (jobid=603034, request id:{08A935B8-2E82-11EF-9E84-00B3ED318787})
+Jun 20, 2024 12:22:29 AM - requesting resource  stu_disk_drp-app-hq
+Jun 20, 2024 12:22:29 AM - requesting resource  drp-app-hq.NBU_CLIENT.MAXJOBS.macfeeapp.cicdom.local
+Jun 20, 2024 12:22:30 AM - Error nbjm (pid=29649) NetBackup status: 2074, EMM status: Disk volume is down
+Disk volume is down  (2074)
+
+
+Jun 19, 2024 10:59:28 PM - Info nbjm (pid=29649) starting backup job (jobid=603020) for client new_sacco.cicdom.local, policy MSSQL_DB, schedule MSSQL_DB_YEARLY
+Jun 19, 2024 10:59:28 PM - Info nbjm (pid=29649) requesting STANDARD_RESOURCE resources from RB for backup job (jobid=603020, request id:{6F58CE88-2E76-11EF-AFCF-EB40650CE47F})
+Jun 19, 2024 10:59:28 PM - requesting resource  stu_disk_drp-app-hq
+Jun 19, 2024 10:59:28 PM - requesting resource  drp-app-hq.NBU_CLIENT.MAXJOBS.new_sacco.cicdom.local
+Jun 19, 2024 10:59:30 PM - granted resource  drp-app-hq.NBU_CLIENT.MAXJOBS.new_sacco.cicdom.local
+Jun 19, 2024 10:59:30 PM - granted resource  MediaID=@aaaab;DiskVolume=PureDiskVolume;DiskPool=dp_disk_drp-app-hq;Path=PureDiskVolume;StorageServer=drp-app-hq;MediaServer=drp-app-hq
+Jun 19, 2024 10:59:30 PM - granted resource  stu_disk_drp-app-hq
+Jun 19, 2024 10:59:34 PM - estimated 5800 kbytes needed
+Jun 19, 2024 10:59:35 PM - Info nbjm (pid=29649) started backup (backupid=new_sacco.cicdom.local_1718827171) job for client new_sacco.cicdom.local, policy MSSQL_DB, schedule MSSQL_DB_YEARLY on storage unit stu_disk_drp-app-hq
+Jun 19, 2024 10:59:44 PM - started process bpbrm (pid=255321)
+Jun 19, 2024 10:59:46 PM - Info bpbrm (pid=255321) The data-in-transit encryption (DTE) is disabled for the client (new_sacco.cicdom.local) as the global DTE mode is set to 'Preferred Off' and the client DTE mode is set to 'Automatic'
+Jun 19, 2024 11:18:53 PM - Info bpbrm (pid=255321) new_sacco.cicdom.local is the host to backup data from
+Jun 19, 2024 11:18:55 PM - Info bpbrm (pid=255321) reading file list for client
+Jun 19, 2024 11:18:57 PM - connecting
+Jun 19, 2024 11:19:00 PM - Info bpbrm (pid=255321) listening for client connection
+Jun 19, 2024 11:19:02 PM - Info bpbrm (pid=255321) INF - Client read timeout = 7200
+Jun 19, 2024 11:19:02 PM - Info bpbrm (pid=255321) accepted connection from client
+Jun 19, 2024 11:19:02 PM - Info dbclient (pid=1320) Backup started
+Jun 19, 2024 11:19:02 PM - Info bpbrm (pid=255321) bptm pid: 274593
+Jun 19, 2024 11:19:02 PM - connected; connect time: 0:00:00
+Jun 19, 2024 11:19:04 PM - Info bptm (pid=274593) start
+Jun 19, 2024 11:19:20 PM - Info bptm (pid=274593) using 262144 data buffer size
+Jun 19, 2024 11:19:23 PM - Info bptm (pid=274593) using 30 data buffers
+Jun 19, 2024 11:38:12 PM - Critical bptm (pid=274593) Storage Server Error: (Storage server: PureDisk:drp-app-hq) PdvfsRegisterOST: Failed to register with SPA on storage server drp-app-hq. Check to make sure the server is on and that the services are running. (No such file or directory) V-454-25
+Jun 19, 2024 11:38:13 PM - Critical bptm (pid=274593) sts_open_server failed: error 2060019 error occurred on network socket
+Jun 19, 2024 11:38:13 PM - Critical bptm (pid=274593) failure to open sts for storage server drp-app-hq: plug-in reports error 2060019 error occurred on network socket
+Jun 19, 2024 11:38:13 PM - Info bptm (pid=274593) EXITING with status 83 <----------
+Jun 19, 2024 11:38:44 PM - Info dbclient (pid=1320) done. status: 83: media open error
+Jun 19, 2024 11:38:44 PM - end writing
+media open error  (83)
+
+
+
+Jun 19, 2024 10:28:52 PM - Info nbjm (pid=29649) starting backup job (jobid=602997) for client turnquest-ug, policy ORACLE_DB, schedule ORACLE_DB_YEARLY
+Jun 19, 2024 10:28:53 PM - Info nbjm (pid=29649) requesting STANDARD_RESOURCE resources from RB for backup job (jobid=602997, request id:{29ACBC72-2E72-11EF-AC12-F42A6E55B398})
+Jun 19, 2024 10:28:53 PM - requesting resource  stu_disk_drp-app-hq
+Jun 19, 2024 10:28:53 PM - requesting resource  drp-app-hq.NBU_CLIENT.MAXJOBS.turnquest-ug
+Jun 19, 2024 10:29:51 PM - granted resource  drp-app-hq.NBU_CLIENT.MAXJOBS.turnquest-ug
+Jun 19, 2024 10:29:51 PM - granted resource  MediaID=@aaaab;DiskVolume=PureDiskVolume;DiskPool=dp_disk_drp-app-hq;Path=PureDiskVolume;StorageServer=drp-app-hq;MediaServer=drp-app-hq
+Jun 19, 2024 10:29:51 PM - granted resource  stu_disk_drp-app-hq
+Jun 19, 2024 10:29:53 PM - Info bpbrm (pid=225747) The data-in-transit encryption is disabled as the client (turnquest-ug) version is earlier than 9.1
+Jun 19, 2024 10:29:53 PM - estimated 3290150 kbytes needed
+Jun 19, 2024 10:29:53 PM - Info nbjm (pid=29649) started backup (backupid=turnquest-ug_1718825391) job for client turnquest-ug, policy ORACLE_DB, schedule ORACLE_DB_YEARLY on storage unit stu_disk_drp-app-hq
+Jun 19, 2024 10:29:53 PM - started process bpbrm (pid=225747)
+Jun 19, 2024 10:30:35 PM - Info bpbrm (pid=225747) turnquest-ug is the host to backup data from
+Jun 19, 2024 10:30:35 PM - Info bpbrm (pid=225747) reading file list for client
+Jun 19, 2024 10:30:36 PM - connecting
+Jun 19, 2024 10:30:57 PM - Info bpbrm (pid=225747) listening for client connection
+Jun 19, 2024 10:30:57 PM - Info bpbrm (pid=225747) INF - Client read timeout = 7200
+Jun 19, 2024 10:30:58 PM - Info bpbrm (pid=225747) accepted connection from client
+Jun 19, 2024 10:30:58 PM - Info bpbrm (pid=225747) start bpbkar on client
+Jun 19, 2024 10:30:58 PM - connected; connect time: 0:00:00
+Jun 19, 2024 10:30:59 PM - Info bptm (pid=226488) start
+Jun 19, 2024 10:30:59 PM - Info dbclient (pid=17021) Backup started
+Jun 19, 2024 10:30:59 PM - Info dbclient (pid=15788) Backup started
+Jun 19, 2024 10:30:59 PM - Info bpbrm (pid=225747) bptm pid: 226488
+Jun 19, 2024 10:31:26 PM - Info bptm (pid=226488) using 262144 data buffer size
+Jun 19, 2024 10:31:26 PM - Info bptm (pid=226488) using 30 data buffers
+Jun 19, 2024 10:34:25 PM - Info bptm (pid=226488) start backup
+Jun 19, 2024 10:46:45 PM - Info bptm (pid=226488) backup child process is pid 242104
+Jun 19, 2024 10:46:45 PM - begin writing
+Jun 19, 2024 11:31:57 PM - Info dbclient (pid=15788) done. status: 0
+Jun 19, 2024 11:31:58 PM - Info bptm (pid=226488) waited for full buffer 54189 times, delayed 163934 times
+Jun 19, 2024 11:56:06 PM - Critical bptm (pid=226488) Storage Server Error: (Storage server: PureDisk:drp-app-hq) _pdvfs_fcache_flushfile_norm_cleanup: Failed to write to spoold on storage server (invalid argument). Ensure storage server services are running and operational. V-454-8
+Jun 19, 2024 11:56:06 PM - Critical bptm (pid=226488) sts_close_handle failed: 2060001 one or more invalid arguments
+Jun 19, 2024 11:56:06 PM - Error bptm (pid=226488) cannot write image to disk, media close failed with status 2060001 
+Jun 19, 2024 11:56:21 PM - Info bptm (pid=226488) EXITING with status 87 <----------
+Jun 19, 2024 11:56:21 PM - Info drp-app-hq (pid=226488) StorageServer=PureDisk:drp-app-hq; Report=PDDO Stats (multi-threaded stream used) for (drp-app-hq): scanned: 14858722 KB, CR sent: 297213 KB, CR sent over FC: 0 KB, dedup: 98.0%, cache hits: 109152 (94.0%), where dedup space saving:94.0%, compression space saving:4.0%
+Jun 19, 2024 11:56:38 PM - Info dbclient (pid=15788) done. status: 87: media close error
+Jun 19, 2024 11:56:38 PM - end writing; write time: 1:09:53
+media close error  (87)
+
+
+
+
+
+YKVZRAEZWCDMDWNF
+
+
+
+
+Jun 20, 2024 9:51:42 AM - Info nbjm (pid=29649) starting backup job (jobid=603070) for client drp-app-hq, policy MSSQL_DB1, schedule MSSQL_DB1_DAILY
+Jun 20, 2024 9:51:42 AM - Info nbjm (pid=29649) requesting MEDIA_SERVER_ONLY resources from RB for backup job (jobid=603070, request id:{8D7C2AA8-2ED1-11EF-91DB-DFC94323A22B})
+Jun 20, 2024 9:51:42 AM - requesting resource  stu_disk_drp-app-hq
+Jun 20, 2024 9:51:42 AM - requesting resource  drp-app-hq.NBU_CLIENT.MAXJOBS.drp-app-hq
+Jun 20, 2024 9:51:51 AM - Error nbjm (pid=29649) NetBackup status: 2106, EMM status: Storage Server is down or unavailable 
+Disk storage server is down  (2106)
+
+
+
+
+Jun 20, 2024 10:04:02 AM - Info nbjm (pid=29649) starting backup job (jobid=603073) for client erp_db.cicdom.local, policy MSSQL_DB1, schedule MSSQL_DB1_DAILY
+Jun 20, 2024 10:04:05 AM - Info nbjm (pid=29649) requesting STANDARD_RESOURCE resources from RB for backup job (jobid=603073, request id:{486BEA82-2ED3-11EF-B7A6-0EE40944AA3B})
+Jun 20, 2024 10:04:05 AM - requesting resource  stu_disk_drp-app-hq
+Jun 20, 2024 10:04:05 AM - requesting resource  drp-app-hq.NBU_CLIENT.MAXJOBS.erp_db.cicdom.local
+Jun 20, 2024 10:04:17 AM - granted resource  drp-app-hq.NBU_CLIENT.MAXJOBS.erp_db.cicdom.local
+Jun 20, 2024 10:04:17 AM - granted resource  MediaID=@aaaab;DiskVolume=PureDiskVolume;DiskPool=dp_disk_drp-app-hq;Path=PureDiskVolume;StorageServer=drp-app-hq;MediaServer=drp-app-hq
+Jun 20, 2024 10:04:17 AM - granted resource  stu_disk_drp-app-hq
+Jun 20, 2024 10:04:23 AM - estimated 241730 kbytes needed
+Jun 20, 2024 10:04:23 AM - Info nbjm (pid=29649) started backup (backupid=erp_db.cicdom.local_1718867063) job for client erp_db.cicdom.local, policy MSSQL_DB1, schedule MSSQL_DB1_DAILY on storage unit stu_disk_drp-app-hq
+Jun 20, 2024 10:04:37 AM - started process bpbrm (pid=261906)
+Jun 20, 2024 10:09:47 AM - Error bpbrm (pid=261906) bpcd on erp_db.cicdom.local exited with status 23: socket read failed
+Jun 20, 2024 10:14:50 AM - Info bpbkar (pid=0) done. status: 23: socket read failed
+Jun 20, 2024 10:14:51 AM - end writing
+socket read failed  (23)
