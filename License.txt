@@ -1,0 +1,20 @@
+drp-app-hq.ApplianceLicense> ListInfo
++---------------------+------------+
+|     License Type    | PERPETUAL  |
++---------------------+------------+
+|  Licensed Capacity  |   436 TB   |
++---------------------+------------+
+| Support Expiry Date | 2024-12-29 |
++---------------------+------------+
+
+
+
+drp-app-dr.ApplianceLicense> ListInfo
++---------------------+--------------+
+|     License Type    | SUBSCRIPTION |
++---------------------+--------------+
+|  Licensed Capacity  |    36 TB     |
++---------------------+--------------+
+| License Expiry Date |  2024-12-27  |
++---------------------+--------------+
+
