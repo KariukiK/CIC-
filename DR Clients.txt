@@ -1,0 +1,15 @@
+turnquest-ugtest	            Linux(4.1.12-124.48.6.el6uek.x86_64)		9.1	
+cicdfs_server	                Windows2016(10)		                        9.1	
+PREMIADBLIVE.cicdom.local	    Linux(5.4.17-2136.328.3.el7uek.x86_64)	    9.1	
+EOXYGEN_DB_NEW.CICDOM.LOCAL	    Windows2019(10)	                        	10.0	
+premiadbclone	                Linux(4.1.12-124.38.1.el7uek.x86_64)		10.3	
+ERPTESTDB	                    Windows2012_R2(6)                           10.3	
+DB-TEST-RESTORE.CICDOM.LOCAL	Windows2016(10)	                         	10.3	
+cicamdb.cicdom.local	        Linux(5.15.0-203.146.5.1.el8uek.x86_64)		10.3	
+backup-restore	                Linux(4.14.35-1818.3.3.el7uek.x86_64)		10.3	
+newperpayuat	                Linux(5.15.0-203.146.5.1.el8uek.x86_64)		10.3	
+cicamtest	                    Linux(5.15.0-203.146.5.1.el8uek.x86_64)		10.3	
+fundmasterdb.cicdom.local	    Linux(5.4.17-2136.326.6.el8uek.x86_64)		10.3	
+oratestq	                    Linux(5.4.17-2136.328.3.el7uek.x86_64)		10.3	
+PENDB_TEST.cicdom.local	        Windows2019(10)	                         	10.3.0.1
+drp-app-dr	                    Linux(4.18.0-477.70.1.el8_8.x86_64)	    	10.3.0.1
